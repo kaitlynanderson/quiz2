@@ -1,3 +1,7 @@
-consle.log('welocme to quiz town, population...YOU!')
+alert("Welcome to quiz town, population...YOU!");
 
-@('.dynamic').hmtl('<div p>HI THERE, I\'M FROM JAVASCRIPT</p></div>').fadeIn('slo')
+$(".dynamic").text("HI THERE, I'M FROM JAVASCRIPT").fadeIn("slow");
+
+(function() {
+  console.log('hello there!');
+})()
